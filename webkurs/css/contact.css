@@ -1,0 +1,106 @@
+*{box-sizing: border-box;}
+.tutor-main-container, maps-main-container, .kontakt-main-container{
+	width: 100%;
+}
+
+.tutor-main-container{
+	background: #f1ede4;
+}
+
+.tutor-container, .kontakt-container, .kontakt{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.tutor{
+	float: left;
+	width: 60%;
+}
+.tutor-container{
+	padding-top: 200px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 20px;
+}
+.tutor-foto{
+	width: 40%
+	text-align: center;
+}
+.tutor-foto img{
+	float: right;
+	max-width: 100%;
+	border-radius: 30px;
+}
+.tutor-container h1{
+	text-align: center;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #333;
+}
+
+
+/*
+Icons:
+    http://rexkirby.com/kirbyandson/images/name.svg
+    http://rexkirby.com/kirbyandson/images/email.svg
+    http://simpleicon.com/wp-content/uploads/phone-1.svg
+    http://rexkirby.com/kirbyandson/images/comment.svg
+*/ 
+.kontakt-main-container{
+	background: url(../img/kontakt/kontakt-background.jpg) no-repeat fixed;
+	background-size:cover;
+}
+.kontakt-main-container h2{
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333;	
+}
+.kontakt-container{
+	padding-bottom: 50px;
+}
+.kontakt{
+  width:60%;
+  background: #333;
+  padding: 20px;
+  padding-right:40px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+input, #nachricht, #senden{
+  width: 100%;
+  padding: 10px;
+  margin:10px;
+  padding-left: 40px;
+}
+
+
+#name{
+  position: relative;
+}
+.icon{
+  position:absolute;
+  float: left;
+  margin-top: -45px;
+  margin-left: 15px;
+   
+}
+.icon img{
+  width: 30px;
+}
+#nachricht{position: relative}
+.nachrichtIcon{
+  position: absolute;
+  margin-top: -147px;
+  margin-left: 15px;
+}
+.nachrichtIcon img{
+  width: 30px;
+}
+
+#name_err, #email_err, #tel_err, #nachricht_err, #email_inv, #tel_inv{
+	display:none;
+	padding-left: 40px;
+	color: red;
+}

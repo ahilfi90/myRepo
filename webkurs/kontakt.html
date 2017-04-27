@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+		<title>Webkurs</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/projektseite.css">
+        <link rel="stylesheet" href="css/kontakt.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/scrolling.js"></script>
+        <script src="js/responsive.js"></script>
+        <script src="js/validate.js"></script>
+        
+	</head>
+	<body>
+    
+    	<div class="container">
+
+   			<div class="main-header-container">
+            	<header class="main-header ">
+                <div class="main-header-surround clearfix">
+            		<a class="logo" href="index.html">
+                    	<img src="img/layout/logo.png" alt="Webkurs Logo" height="130">
+                    </a>
+                    
+                    <nav>
+                    	<div class="toggle-nav">
+                        	<span class="hamburger"><strong>|||</strong></span></span>
+            
+                        </div><!--toggle-nav-->
+                    	<ul class="active clearfix">
+                        	<li><a id="kurs" href="index.html">Kurs</a></li>
+                            <li><a id="pojekte" href="projekte.html">Kursprojekte</a>
+                            	<ul class="sub-active">
+                                	<li><a href="#">Print</a></li>
+                            		<li><a href="#">Fotografie</a></li>
+                                    <li><a href="#">Medien</a></li>
+                                </ul>
+                            </li>
+                            <li><a id="ressourcen" href="#">Ressourcen</a></li>
+                            <li><a id="Kontakt" href="kontakt.html">Kontakt</a></li>
+                    		
+                        </ul>
+                  </nav>
+                  </div>
+                </header> <!-- main header -->
+            </div> <!-- main-container-header -->
+            
+            <div class="tutor-main-container clearfix">
+            	<div class="tutor-container clearfix">
+                	<h1>//Dein Web-Tutor</h1>
+                	<article class="tutor">
+                    	<h2>Ahmed Hilfi</h2>
+                    	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </article><!--dozent-->
+                    <article class="tutor-foto">
+                    	<img src="img/kontakt/artikelbild-quadrat.jpg" width="300">
+                    </article><!--dozent-foto-->
+                    	
+                </div><!--dozent-container-->
+            </div><!--dozent-main-container-->
+            
+            
+            <div class="maps-main-container clearfix">
+            	<div class="maps-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.741960070464!2d8.655936615550617!3d53.025001479912916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b0d44ecfd22f61%3A0x82ec0e29c867a36b!2sNachtigalstra%C3%9Fe%2C+27755+Delmenhorst!5e0!3m2!1sde!2sde!4v1490830851358" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div><!--dozent-container-->
+            </div><!--dozent-main-container-->
+            
+            <div class="kontakt-main-container clearfix">
+            	<div class="kontakt-container clearfix">
+                  <h2>//Kontaktiere mich!</h2>
+                  <div class="kontakt">
+                    <form id="kontaktformular" name="contactForm" onsubmit="return validate()" action="">
+                      <div>
+                      <input id="name" type="text" placeholder="Name" name="name">
+                        <div class="icon"><img src="http://rexkirby.com/kirbyandson/images/name.svg"></div>
+                        <div id="name_err">Bitte Name eingeben!</div>
+                      </div>
+                      <div>
+                        <input id="email" type="text" placeholder="Email" name="email">
+                        <div class="icon"><img src="http://rexkirby.com/kirbyandson/images/email.svg"></div>
+                        <div id="email_err">Bitte Email-Addresse eingeben!</div>
+                        <div id="email_inv">Ihre Email-Format ist falsch</div>
+                      </div> 
+                      <div>
+                        <input id="telefon" type="text" placeholder="Telefon" name="telefon">
+                        <div class="icon"><img src="http://simpleicon.com/wp-content/uploads/phone-1.svg"></div>
+                        <div id="tel_err">Bitte Telefonnummer eingeben!</div>
+                        <div id="tel_inv">Die Nummer muss mind. 6 Zahlen haben.</div>
+                      </div>
+                      <div>
+                         <textarea id="nachricht" cols="20" rows="5"  placeholder="Nachricht" name="nachricht"></textarea>
+                         <div class="nachrichtIcon"><img src="http://rexkirby.com/kirbyandson/images/comment.svg"></div>
+                        <div id="nachricht_err">Bitte Nachricht eingeben!</div>
+                      </div>
+                          <input id="senden" type="submit" value="Senden">
+                    </form>
+                
+                  </div><!--kontakt-->	
+                </div><!--kontakt-container-->
+            </div><!--kontakt-main-container-->
+            
+            
+            
+            <footer class="main-footer">
+            	<div class="slogan-container">
+                	<section class="slogan">
+                    	<p>
+                    		<span><strong>Mitmachen, Spaß haben.</strong></span> <br>Lerne deine eigene Webseite zu entwickeln!
+                        </p>
+                    </section><!-- slogan-section -->
+                </div><!-- slogan-container -->
+                
+                <div class="scroll-up">
+                    	<div class="scroll-icon">
+                			<img src="img/projektseite/scroll-up.png" alt="scroll up" height="50">
+                        </div><!-- scroll-icon -->
+                </div><!-- scroll-up -->
+                
+                <div class="legal-container">
+                	<section class="legal">
+                    	<p>
+                        	&copy; Webkurs der <a href="http://hilfi.co">Hilfi Design<img src="img/layout/fh-logo.png"alt=""></a>| Fotos von <a href="http://google.de">pic Jumbo</a> | <a href="impressum.html">Impressum</a> 
+                        </p>
+                    </section>
+                </div><!-- legal-container -->
+                
+            </footer>
+    	</div> <!-- container -->
+       
+	</body>
+</html>

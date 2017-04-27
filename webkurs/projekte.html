@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+		<title>Webkurs</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsiveslides.css">
+        <link rel="stylesheet" href="css/slider-css.css">
+        <link rel="stylesheet" href="css/projektseite.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/scrolling.js"></script>
+        <script src="js/responsive.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/responsiveslides.min.js"></script>
+        
+	</head>
+	<body>
+    
+    	<div class="container">
+
+   			<div class="main-header-container">
+            	<header class="main-header ">
+                <div class="main-header-surround clearfix">
+            		<a class="logo" href="index.html">
+                    	<img src="img/layout/logo.png" alt="Webkurs Logo" height="130">
+                    </a>
+                    
+                    <nav>
+                    	<div class="toggle-nav">
+                        	<span class="hamburger"><strong>|||</strong></span></span>
+            
+                        </div><!--toggle-nav-->
+                    	<ul class="active clearfix">
+                        	<li><a id="kurs" href="index.html">Kurs</a></li>
+                            <li><a id="pojekte" href="projekte.html">Kursprojekte</a>
+                            	<ul class="sub-active">
+                                	<li><a href="#">Print</a></li>
+                            		<li><a href="#">Fotografie</a></li>
+                                    <li><a href="#">Medien</a></li>
+                                </ul>
+                            </li>
+                            <li><a id="ressourcen" href="#">Ressourcen</a></li>
+                            <li><a id="dozent" href="kontakt.html">Kontakt</a></li>
+                    		
+                        </ul>
+                  </nav>
+                  </div>
+                </header> <!-- main header -->
+            </div> <!-- main-container-header -->
+            
+            
+            <div class="main-content-container">
+           	  <div class="content-header-container">
+                	<header class="content-header">
+                    	<h1>Kursprojekte</h1>
+                    </header>
+                </div><!--content-header-container-->
+                <div class="content-container">
+               	  <section class="content">
+                    	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    </section>
+                </div><!--content-container-->
+            </div><!--main-content-container-->
+            
+            <div class="gallery-container">
+             	<section class="gallery clearfix">
+                                            
+                    <article>
+                    	<a class="projekt" id="wiki" href="#">
+                        	<div class="overlay">
+                        		<h3>Studiengang: Medieninformatik</h3>
+                        		<p>Projektname: Wikipedia-Optimierung</p>
+                        		<p>Semester: 4 </p>
+                        		<p class="button btn-light">Projekt ansehen</p>
+                        	</div>
+                        	<img src="img/projektseite/wikipedia.jpg" alt="Wikipedia-Redesign">
+                        </a>
+                                                            
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+            
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close" id="closeWiki">&times;</span>
+                                    <h2>Wikipedia-Optimierung</h2>
+                                </div>
+                                <div class="modal-body clearfix">
+                                <!-- Slideshow -->
+                                <div class="callbacks_container">
+                                  <ul class="rslides" id="slider1">
+                                    <li>
+                                      <img src="img/projektseite/slider/1.jpg" alt="">
+                                      <p class="caption">Wikipedia auf mobiler Ansicht</p>
+                                    </li>
+                                    <li>
+                                      <img src="img/projektseite/slider/2.jpg" alt="">
+                                      <p class="caption">Wikipedia Inhaltstrukturierung</p>
+                                    </li>
+                                    <li>
+                                      <img src="img/projektseite/slider/3.jpg" alt="">
+                                      <p class="caption">Übersichtliches Design</p>
+                                    </li>
+                                  </ul>
+                                </div><!-- Slideshow-->
+                                </div>
+                                
+                            </div><!-- Modal content -->
+            
+                        </div><!-- The Modal -->
+                    </article>
+                    
+                    <article>
+                    	<a class="projekt" id="kopfkino" href="#">
+                        	<div class="overlay">
+                        		<h3>Studiengang: Digitale Medien</h3>
+                        		<p>Projektnamen: Kopfkino</p>
+                        		<p>Semester 3</p>
+                        		<p class="button btn-light">Projekt ansehen</p>
+                        	</div>
+                        	<img src="img/projektseite/kopfkino.jpg" alt="Kopfkino-Redesign">
+                        </a>
+                            <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+            
+                            <!-- Modal content -->
+                            <div class="modal-content kopfKinoContent">
+                                <div class="modal-header">
+                                    <span class="close" id="closeKopfKino">&times;</span>
+                                    <h2>Kopfkino</h2>
+                             	</div>
+                             
+                          		<div class="modal-body kopfKinoBody clearfix">
+                                  <div>
+                                      <h3>Kopfkino</h3>
+                                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                      <div id="kopfKinoVideo" style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/Or8Z5-AgNMc?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+                                  </div>
+                                  
+                                </div><!-- Modal body -->
+                                
+                            </div><!-- Modal content -->
+            
+                        </div><!-- The Modal -->
+                    </article>
+                    
+                    <article>
+                    	<a class="projekt" href="#">
+                        	<div class="overlay">
+                        		<h3>Name des Studenten</h3>
+                        		<p>Projektnamen:</p>
+                        		<p>Semester 2000</p>
+                        		<p class="button btn-light">Projekt ansehen</p>
+                        	</div>
+                        	<img src="img/projektseite/studifolio.jpg" alt="Studifolio-Redesign">
+                        </a>
+                    </article>
+                    
+                    <article>
+                    	<a class="projekt" href="#">
+                        	<div class="overlay">
+                        		<h3>Name des Studenten</h3>
+                        		<p>Projektnamen:</p>
+                        		<p>Semester 2000</p>
+                        		<p class="button btn-light">Projekt ansehen</p>
+                        	</div>
+                        	<img src="img/projektseite/alptraum.jpg" alt="Alptraum-Redesign">
+                        </a>
+                    </article>
+                    
+                </section><!--galery-section-->
+            </div><!--gallery-container-->
+      
+            <footer class="main-footer">
+            	<div class="slogan-container">
+                	<section class="slogan">
+                    	<p>
+                    		<span><strong>Mitmachen, Spaß haben.</strong></span> <br>Lerne deine eigene Webseite zu entwickeln!
+                        </p>
+                    </section><!-- slogan-section -->
+                </div><!-- slogan-container -->
+                
+                <div class="scroll-up">
+                    	<div class="scroll-icon">
+                			<img src="img/projektseite/scroll-up.png" alt="scroll up" height="50">
+                        </div><!-- scroll-icon -->
+                </div><!-- scroll-up -->
+                
+                <div class="legal-container">
+                	<section class="legal">
+                    	<p>
+                        	&copy; Webkurs der <a href="http://hilfi.co">Hilfi Design<img src="img/layout/fh-logo.png"alt=""></a>| Fotos von <a href="http://google.de">pic Jumbo</a> | <a href="impressum.html">Impressum</a> 
+                        </p>
+                    </section>
+                </div><!-- legal-container -->
+                
+            </footer>
+    	</div> <!-- container -->
+           
+	</body>
+</html>
